@@ -1,5 +1,9 @@
 = scRUBYt! Changelog
 
+== 0.4.4
+== 13th March 2011
+- [FIX] scRUBYt now works with Mechanize 1.0.0 (John Small)
+
 == 0.4.3
 == 23th April
 
