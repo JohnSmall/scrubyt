@@ -21,12 +21,12 @@ module Scrubyt
           end
         else
           FetchAction.class_eval do
-            include Navigation::Mechanize
+            include Navigation::MechanizeAgent
           end
         end
       else
         FetchAction.class_eval do
-          include Navigation::Mechanize
+          include Navigation::MechanizeAgent
         end
       end
       extractor = self.new(mode, extractor_definition)
